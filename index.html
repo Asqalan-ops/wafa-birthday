@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>For Wafa — Happy Birthday</title>
+<meta name="theme-color" content="#0b0610">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>♥</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="loader"><h2>Wafa</h2><p>something is being prepared for you</p></div>
+<canvas id="fx" aria-hidden="true"></canvas>
+<div id="hearts" aria-hidden="true"></div>
+
+<div class="music" id="music">
+  <input id="vol" type="range" min="0" max="1" step="0.01" value="0.5" aria-label="Volume">
+  <button id="mbtn" type="button" aria-label="Play music" title="a little music"><span>♪</span></button>
+</div>
+
+<header class="hero" id="top">
+  <p class="intro">a small corner of the internet, built quietly, just for —</p>
+  <h1><span class="hb">Happy Birthday</span><span class="name">Wafa</span></h1>
+  <p class="date">2ND OF DECEMBER</p>
+  <button class="btn" id="begin" type="button">begin</button>
+  <span class="scroll">scroll<i></i></span>
+</header>
+
+<section id="letter" class="sec">
+  <p class="eyebrow rv">a letter</p>
+  <h2 class="title rv">From Kraven, to you</h2>
+  <article class="letter rv">
+    <p>Wafa,</p>
+    <p>I don't know exactly how to start this, so I'll just start it honestly. It's only been a few months since we became close, but somewhere in those months you became one of the kindest people I have ever known and that's not a small thing for me to say.</p>
+    <p>You work harder than almost anyone I know, and you rarely stop to notice it yourself. You carry a lot, quietly, and you keep going anyway. I see that. I've always seen that.</p>
+    <p>Some days we talk for hours about nothing and everything. Some days you go quiet, and that's okay too — the distance between us has never really felt like distance when it matters most.</p>
+    <p>So today, of all days, I wanted you to open something and feel, even just for a few minutes, exactly how special you are. Not because it's your birthday. Because it's true every other day too.</p>
+    <p>Happy birthday, Wafa. I hope this year is kind to you, the way you are kind to everyone else.</p>
+    <p class="sign">Kraven</p>
+  </article>
+</section>
+
+<section id="gallery" class="sec">
+  <p class="eyebrow rv">memory gallery</p>
+  <h2 class="title rv">A few of my favourites</h2>
+
+  <div class="grid3">
+    <div>
+      <img src="pic1.png" alt="that smile" width="300">
+      <p class="cap rv">that smile</p>
+    </div>
+
+    <div>
+      <img src="pic2.png" alt="golden light" width="300">
+      <p class="cap rv">golden light</p>
+    </div>
+
+    <div>
+      <img src="pic3.png" alt="just you" width="300">
+      <p class="cap rv">just you</p>
+    </div>
+  </div>
+</section>
+</section>
+
+<section id="why" class="sec">
+  <p class="eyebrow rv">why you</p>
+  <h2 class="title rv">A few reasons, out of many</h2>
+  <div class="cards">
+    <div class="card rv"><b>01</b><h3>Kindness</h3><p>You give people patience and warmth even when you're tired. Not everyone notices that about you. I do.</p></div>
+    <div class="card rv"><b>02</b><h3>Strength</h3><p>You carry more than you let on, and you rarely make a show of it. That's a quiet kind of strength, the rarest kind.</p></div>
+    <div class="card rv"><b>03</b><h3>Hard work</h3><p>You never give up, even on the days it would be easier to. I've watched you push through more than most people would.</p></div>
+    <div class="card rv"><b>04</b><h3>How you care</h3><p>You remember the small things about the people you love. It's such a simple thing, and it means everything.</p></div>
+    <div class="card rv"><b>05</b><h3>Your honesty</h3><p>Even in silence, you're never pretending. I've always trusted the version of you that shows up, quiet days and all.</p></div>
+    <div class="card rv"><b>06</b><h3>Just... you</h3><p>Your personality the humour, the softness, the stubbornness, all of it. It's rare to find someone like you.</p></div>
+  </div>
+</section>
+
+<section id="journey" class="sec">
+  <p class="eyebrow rv">our journey</p>
+  <h2 class="title rv">How we got here</h2>
+  <ol class="tl">
+    <li class="rv"><small>The beginning</small><h3>We started talking</h3><p>Two people, a screen between us, and a conversation that didn't feel like it needed to end.</p></li>
+    <li class="rv"><small>A few weeks in</small><h3>The hours-long talks</h3><p>Somehow minutes turned into hours. I never once checked the clock and wished I hadn't.</p></li>
+    <li class="rv"><small>Along the way</small><h3>The quiet days too</h3><p>Some days you went quiet, and I learned that was okay, presence doesn't always need noise.</p></li>
+    <li class="rv"><small>Despite the distance</small><h3>Long-distance, close anyway</h3><p>Different cities, same conversations that mattered. Distance was never really the point.</p></li>
+    <li class="rv"><small>Today</small><h3>Three months, and counting</h3><p>Not long by most measures but long enough for you to become someone I genuinely value.</p></li>
+  </ol>
+</section>
+
+<section id="surprise" class="sec">
+  <p class="eyebrow rv">one more thing</p>
+  <h2 class="title rv">Press this, if you dare</h2>
+  <button class="btn rv" id="open" type="button" aria-expanded="false" aria-controls="msg">🎉 open the surprise</button>
+  <blockquote id="msg" class="reveal" aria-live="polite"><p>“Somewhere between the long calls and the quiet days, you became someone I genuinely root for. Here's to you having the best year yet, Wafa and here's to more KitKats along the way. 🍫”</p></blockquote>
+</section>
+
+<section id="wishes" class="sec">
+  <p class="eyebrow rv">wishes from the future</p>
+  <h2 class="title rv">For the year ahead</h2>
+  <ol class="wishes">
+    <li class="rv"><b>i.</b><p>May the hard work you put in quietly finally get the loud recognition it deserves.</p></li>
+    <li class="rv"><b>ii.</b><p>May you find more days that feel easy, after so many that asked so much of you.</p></li>
+    <li class="rv"><b>iii.</b><p>May every adventure you've been putting off finally find the right time.</p></li>
+    <li class="rv"><b>iv.</b><p>May the people around you love you as fiercely as you love them.</p></li>
+    <li class="rv"><b>v.</b><p>And may you never run out of KitKats. Ever. I mean it.</p></li>
+  </ol>
+</section>
+
+<section id="final" class="sec">
+  <p class="eyebrow rv">last thing</p>
+  <h2 class="title rv">Happy Birthday, Wafa</h2>
+  <p class="final rv">However today unfolds, I hope some part of it reminds you how genuinely loved and appreciated you are. Thank you for being exactly who you are, kind, strong, and quietly wonderful, three months in and still going.</p>
+  <p class="sign rv">With so much appreciation, Kraven</p>
+  <button class="btn rv" id="again" type="button">↑ read it again</button>
+</section>
+
+<footer>made with care, for Wafa, 2 December</footer>
+<script src="script.js"></script>
+</body>
+</html>
